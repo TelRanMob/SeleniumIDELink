@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://dhclinicamobileppstg.item-soft.co.il/index.htm" />
+<title>RegPatient</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">RegPatient</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>http://dhclinicappv2stg.item-soft.co.il/Login.aspx?returnUrl=%2fLandingPage.aspx</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=MainContent_LoginUser_UserName</td>
+	<td>DoctorX</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=MainContent_LoginUser_Password</td>
+	<td>LinkCare!!11</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=MainContent_LoginUser_LoginButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=MainContent_AddNewItem</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=MainContent_AddEditAccount1_firstNameTxt</td>
+	<td>aasdf</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=MainContent_AddEditAccount1_lastNameTxt</td>
+	<td>asdf</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=MainContent_AddEditAccount1_PersonalPatientTxt</td>
+	<td>789704723</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ctl00_MainContent_AddEditAccount1_rdp_birthDate_popupButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//table[@id='ctl00_MainContent_AddEditAccount1_rdp_birthDate_calendar_Top']/tbody/tr/td[6]/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=ctl00_MainContent_AddEditAccount1_rdp_birthDate_dateInput</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ctl00_MainContent_AddEditAccount1_rdp_birthDate</td>
+	<td>2016-01-01</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=MainContent_AddEditAccount1_rtb_Weight</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=MainContent_AddEditAccount1_TxtPatientEmail</td>
+	<td>aasdf@yopmail.com</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='ctl00_MainContent_AddEditAccount1_RCBdomain_EmbeddedTree']/ul/li/div/span[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//img[@onclick='javascript:EditUserName(this)']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ctl00_MainContent_AddEditAccount1_RadGrid2_ctl00_ctl04_TxtChangeUserNameEmail</td>
+	<td>more@yopmail.com</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ctl00_MainContent_AddEditAccount1_RadGrid2_ctl00_ctl04_btnChangeUserNameEmail</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ctl00_MainContent_AddEditAccount1_TxtsearchMail</td>
+	<td>aaba@yopmail.com</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ctl00_MainContent_AddEditAccount1_BtnSearch_input</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ctl00_MainContent_AddEditAccount1_RDTmeetingdate_popupButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//table[@id='ctl00_MainContent_AddEditAccount1_RDTmeetingdate_calendar_Top']/tbody/tr[5]/td[6]/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ctl00_MainContent_AddEditAccount1_RDTmeetingdate_dateInput</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ctl00_MainContent_AddEditAccount1_RDTmeetingdate</td>
+	<td>2016-01-29-00-00-00</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ctl00_MainContent_AddEditAccount1_RDTmeetingdate_timePopupLink</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//table[@id='ctl00_MainContent_AddEditAccount1_RDTmeetingdate_timeView_tdl']/tbody/tr[7]/td[2]/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ctl00_MainContent_AddEditAccount1_RDTmeetingdate_dateInput</td>
+	<td>29/01/2016 12:00</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ctl00_MainContent_AddEditAccount1_RDTmeetingdate</td>
+	<td>2016-01-29-16-00-00</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=MainContent_AddEditAccount1_SaveAccount</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=fakeusernameremembered</td>
+	<td>8308Doctor</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=fakepasswordremembered</td>
+	<td>LinkCare!!11</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
