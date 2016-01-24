@@ -3,13 +3,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://dhclinicamobileppstg.item-soft.co.il/index.htm" />
-<title>RegPatient</title>
+<link rel="selenium.base" href="http://dhclinicappv2stg.item-soft.co.il/" />
+<title>DemoPatient</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">RegPatient</td></tr>
+<tr><td rowspan="1" colspan="3">DemoPatient</td></tr>
 </thead><tbody>
 <tr>
 	<td>open</td>
@@ -19,7 +19,7 @@
 <tr>
 	<td>type</td>
 	<td>id=MainContent_LoginUser_UserName</td>
-	<td>DoctorX</td>
+	<td>8308Doctor</td>
 </tr>
 <tr>
 	<td>type</td>
@@ -32,29 +32,59 @@
 	<td></td>
 </tr>
 <tr>
-	<td>click</td>
-	<td>id=MainContent_AddNewItem</td>
-	<td></td>
+	<td>type</td>
+	<td>name=fakeusernameremembered</td>
+	<td>8308Doctor</td>
 </tr>
 <tr>
-	<td>pause</td>
-	<td>2000</td>
+	<td>type</td>
+	<td>name=fakepasswordremembered</td>
+	<td>LinkCare!!11</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=MainContent_ItemLinkButton3</td>
 	<td></td>
 </tr>
 <tr>
 	<td>type</td>
-	<td>//*[@id='MainContent_AddEditAccount1_firstNameTxt']</td>
-	<td>Ivan</td>
+	<td>name=fakeusernameremembered</td>
+	<td>8308Doctor</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=fakepasswordremembered</td>
+	<td>LinkCare!!11</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=MainContent_AddEditAccount1_firstNameTxt</td>
+	<td></td>
 </tr>
 <tr>
 	<td>type</td>
 	<td>id=MainContent_AddEditAccount1_lastNameTxt</td>
-	<td>asdf</td>
+	<td>Demo</td>
 </tr>
 <tr>
 	<td>type</td>
 	<td>id=MainContent_AddEditAccount1_PersonalPatientTxt</td>
-	<td>789704723</td>
+	<td>446465809</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=MainContent_AddEditAccount1_rtb_Weight</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=MainContent_AddEditAccount1_TxtPatientEmail</td>
+	<td>Demo@yopmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=MainContent_AddEditAccount1_firstNameTxt</td>
+	<td>Demo</td>
 </tr>
 <tr>
 	<td>click</td>
@@ -77,21 +107,6 @@
 	<td>2016-01-01</td>
 </tr>
 <tr>
-	<td>type</td>
-	<td>id=MainContent_AddEditAccount1_rtb_Weight</td>
-	<td>3</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=MainContent_AddEditAccount1_TxtPatientEmail</td>
-	<td>aasdf@yopmail.com</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>//div[@id='ctl00_MainContent_AddEditAccount1_RCBdomain_EmbeddedTree']/ul/li/div/span[3]</td>
-	<td></td>
-</tr>
-<tr>
 	<td>click</td>
 	<td>//img[@onclick='javascript:EditUserName(this)']</td>
 	<td></td>
@@ -99,7 +114,7 @@
 <tr>
 	<td>type</td>
 	<td>id=ctl00_MainContent_AddEditAccount1_RadGrid2_ctl00_ctl04_TxtChangeUserNameEmail</td>
-	<td>more@yopmail.com</td>
+	<td>More@yopmail.com</td>
 </tr>
 <tr>
 	<td>click</td>
@@ -107,9 +122,19 @@
 	<td></td>
 </tr>
 <tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
 	<td>type</td>
 	<td>id=ctl00_MainContent_AddEditAccount1_TxtsearchMail</td>
-	<td>aaba@yopmail.com</td>
+	<td>Aba@yopmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ctl00_MainContent_AddEditAccount1_TxtsearchMail</td>
+	<td>Aba@yopmail.com</td>
 </tr>
 <tr>
 	<td>click</td>
@@ -123,7 +148,7 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>//table[@id='ctl00_MainContent_AddEditAccount1_RDTmeetingdate_calendar_Top']/tbody/tr[5]/td[6]/a</td>
+	<td>//table[@id='ctl00_MainContent_AddEditAccount1_RDTmeetingdate_calendar_Top']/tbody/tr[5]/td[5]/a</td>
 	<td></td>
 </tr>
 <tr>
@@ -134,7 +159,7 @@
 <tr>
 	<td>type</td>
 	<td>id=ctl00_MainContent_AddEditAccount1_RDTmeetingdate</td>
-	<td>2016-01-29-00-00-00</td>
+	<td>2016-01-28-00-00-00</td>
 </tr>
 <tr>
 	<td>click</td>
@@ -143,27 +168,32 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>//table[@id='ctl00_MainContent_AddEditAccount1_RDTmeetingdate_timeView_tdl']/tbody/tr[7]/td[2]/a</td>
+	<td>//table[@id='ctl00_MainContent_AddEditAccount1_RDTmeetingdate_timeView_tdl']/tbody/tr[6]/td/a</td>
 	<td></td>
 </tr>
 <tr>
 	<td>type</td>
 	<td>id=ctl00_MainContent_AddEditAccount1_RDTmeetingdate_dateInput</td>
-	<td>29/01/2016 12:00</td>
+	<td>28/01/2016 12:00</td>
 </tr>
 <tr>
 	<td>type</td>
 	<td>id=ctl00_MainContent_AddEditAccount1_RDTmeetingdate</td>
-	<td>2016-01-29-16-00-00</td>
+	<td>2016-01-28-12-00-00</td>
 </tr>
 <tr>
-	<td>pause</td>
+	<td>click</td>
+	<td>//*[@id='MainContent_AddEditAccount1_UpdatePanel1']/div/div[2]</td>
 	<td></td>
-	<td>2000</td>
 </tr>
 <tr>
 	<td>click</td>
 	<td>id=MainContent_AddEditAccount1_SaveAccount</td>
+	<td></td>
+</tr>
+<tr>
+	<td></td>
+	<td></td>
 	<td></td>
 </tr>
 </tbody></table>
