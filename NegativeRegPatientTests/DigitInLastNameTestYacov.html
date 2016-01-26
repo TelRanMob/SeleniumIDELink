@@ -4,33 +4,34 @@
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="selenium.base" href="http://newtours.demoaut.com/" />
-<title>DigitInNameTestYacov</title>
+<title>DigitInLastNameTestYacov</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">DigitInNameTestYacov</td></tr>
+<tr><td rowspan="1" colspan="3">DigitInLastNameTestYacov</td></tr>
 </thead><tbody>
 <tr>
-	<td>type</td>
-	<td>id=MainContent_AddEditAccount1_firstNameTxt</td>
-	<td>555ggg</td>
+	<td>click</td>
+	<td>id=MainContent_ItemLinkButton3</td>
+	<td></td>
 </tr>
 <tr>
-	<td>click</td>
-	<td>id=MainContent_AddEditAccount1_TxtPatientEmail</td>
+	<td>waitForElementPresent</td>
+	<td>id=ctl00_MainContent_AddEditAccount1_BtnSearch_input</td>
 	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=MainContent_AddEditAccount1_lastNameTxt</td>
+	<td>hhh777</td>
 </tr>
 <tr>
 	<td>verifyText</td>
-	<td>id=MainContent_AddEditAccount1_RegularExpressionValidator1</td>
+	<td>id=MainContent_AddEditAccount1_RegularExpressionValidator2</td>
 	<td>אותיות בלבד</td>
 </tr>
-<tr>
-	<td>click</td>
-	<td>css=div.PopupCloseBtn</td>
-	<td></td>
-</tr>
+
 </tbody></table>
 </body>
 </html>
