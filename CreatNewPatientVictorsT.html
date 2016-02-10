@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://newtours.demoaut.com/" />
+<title>LinkCareCreatePacient</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">LinkCareCreatePacient</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>http://dhclinicappv2stg.item-soft.co.il/Login.aspx?returnUrl=%2fLandingPage.aspx</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=MainContent_LoginUser_UserName</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=MainContent_LoginUser_UserName</td>
+	<td>8308Doctor</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>id=MainContent_LoginUser_UserName</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=MainContent_LoginUser_Password</td>
+	<td>LinkCare!!11</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>id=MainContent_LoginUser_Password</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=MainContent_LoginUser_LoginButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=Top1_HeadLoginStatus</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=Top1_HeadLoginStatus</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=MainContent_ItemLinkButton3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=MainContent_ItemLinkButton3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>//fieldset[@id='MainContent_AddEditAccount1_metupalDetails']/legend</td>
+	<td>פרטי מטופל</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[@id='popup']/div[2]/div[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=MainContent_AddEditAccount1_firstNameTxt</td>
+	<td>Shlomo</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=MainContent_AddEditAccount1_lastNameTxt</td>
+	<td>Sharabi</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=MainContent_AddEditAccount1_PersonalPatientTxt</td>
+	<td>792628695</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=MainContent_AddEditAccount1_TxtPatientEmail</td>
+	<td>bofabeso-0339@yopmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ctl00_MainContent_AddEditAccount1_TxtsearchMail</td>
+	<td>edavekaq-7809@yopmail.com</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ctl00_MainContent_AddEditAccount1_BtnSearch_input</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=//*[@id='MainContent_AddEditAccount1_metupalDetails']/table/tbody/tr[3]/td[6]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=//*[@id='MainContent_AddEditAccount1_rtb_Weight']</td>
+	<td>10</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=MainContent_AddEditAccount1_rtb_Weight</td>
+	<td>10</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=MainContent_AddEditAccount1_rtb_Weight</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=//*[@id='ctl00_MainContent_AddEditAccount1_rdp_birthDate_dateInput']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=//*[@id='ctl00_MainContent_AddEditAccount1_rdp_birthDate_popupButton']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=//*[@id='ctl00_MainContent_AddEditAccount1_rdp_birthDate_calendar_FNP']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=//*[@id='ctl00_MainContent_AddEditAccount1_rdp_birthDate_calendar_Top']/tbody/tr[4]/td[3]/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>4000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='ctl00_MainContent_AddEditAccount1_RCBdomain_EmbeddedTree']/ul/li/div/span[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=//*[@id='ctl00_MainContent_AddEditAccount1_RDTmeetingdate_popupButton']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=//*[@id='ctl00_MainContent_AddEditAccount1_RDTmeetingdate_calendar_NN']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=//*[@id='ctl00_MainContent_AddEditAccount1_RDTmeetingdate_calendar_Top']/tbody/tr[3]/td[2]/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>xpath=(//a[@onclick='return false;'])[16]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=MainContent_AddEditAccount1_SaveAccount</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
